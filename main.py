@@ -3,6 +3,9 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
+# new changes to this new files
+Context context = new InitialContext();
+DataSource dataSource = (DataSource) context.lookup("java:comp/env/jdbc/myDB");
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
